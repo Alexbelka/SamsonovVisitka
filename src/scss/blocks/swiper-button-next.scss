@@ -1,0 +1,26 @@
+.swiper-button{
+  display: block;
+  width: 18px;
+  height: 30px;
+  outline: none;
+  margin:auto;
+  //box-shadow: 0 0 1px 1px red;
+  position: relative;
+}
+
+.swiper-button__arrow{
+  position: absolute;
+  top:0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+@media (min-width: 1280px) {
+  .swiper-button{
+    margin-top: 20px;
+  }
+}
+
+
+

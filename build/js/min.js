@@ -1,0 +1,1 @@
+var mySwiper=new Swiper(".swiper-container",{direction:"vertical",loop:!0,autoHeight:!0,pagination:{el:".swiper-pagination"},navigation:{nextEl:".swiper-button"},scrollbar:{el:".swiper-scrollbar"}});
